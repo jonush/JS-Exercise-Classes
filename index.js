@@ -186,11 +186,11 @@ class Student extends Lambdasian{
     return `${this.name} has begun sprint challenge on ${subject}`;
   }
   // STRETCH GOAL
-  graduate(Instructor){
+  graduate(){
     if(this.grade >= 70){
       return `${this.name} can graduate!`
     } else {
-      return `${this.name} doesn't have a high enough grade to graduate. See ${Instructor.name} and try to increase your score!`
+      return `${this.name} doesn't have a high enough grade to graduate. Try to raise your grade.`
     }
   }
 }
